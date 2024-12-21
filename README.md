@@ -26,6 +26,9 @@ This project is a web scraper for extracting information about submarine cables 
 - `webdriver-manager`
 - `colorama`
 
+### Additional Requirements
+- **Google Chrome** must be installed on your system for the Chrome WebDriver to function correctly.
+
 ### Install Requirements
 Run the following command to install the dependencies:
 ```bash
