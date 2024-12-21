@@ -35,6 +35,51 @@ Run the following command to install the dependencies:
 pip install -r requirements.txt
 ```
 
+## Getting Started
+
+Follow these steps to set up and run the project:
+
+### Step 1: Install Python
+Ensure you have Python 3.8 or higher installed on your system.
+- **Windows**: Download Python from the [official Python website](https://www.python.org/downloads/). During installation, make sure to check the box that says "Add Python to PATH."
+- **Mac**: Download Python from the [official Python website](https://www.python.org/downloads/) or use Homebrew:
+  ```bash
+  brew install python
+  ```
+
+### Step 2: Install Git
+Ensure Git is installed on your system.
+- **Windows**: Download Git from the [official Git website](https://git-scm.com/downloads/) and follow the installation instructions.
+- **Mac**: Install Git using Homebrew:
+  ```bash
+  brew install git
+  ```
+
+### Step 3: Clone the Repository
+Use Git to clone the project repository:
+```bash
+git clone https://github.com/your-repo/submarine-cable-scraper.git
+```
+Navigate to the project directory:
+```bash
+cd submarine-cable-scraper
+```
+
+### Step 4: Install Dependencies
+Install the required Python packages:
+```bash
+pip install -r requirements.txt
+```
+
+### Step 5: Run the Script
+Execute the main script:
+```bash
+python main.py
+```
+
+### Step 6: View the Results
+The results will be saved in a file named `submarine_cables.csv` in the project directory.
+
 ## Usage
 
 ### Step 1: Run the Script
@@ -74,6 +119,4 @@ You can customize the following aspects of the script:
   ```
 - This script is for educational and non-commercial purposes only. Respect the website's terms of service.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
